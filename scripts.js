@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function() {  
 	$('#home-content').fadeIn('slow', function() {
 		$(this).css("display", "inline");
 		$(this).css("opacity", 100);
-		});
+		}); 
 	$('.nav-link').click(function() {
 		var linkClicked = $(this).attr("id");
 		$('.content').fadeOut('fast')
@@ -73,5 +73,4 @@ $(document).ready(function() {
 
 
 	})
-
 })
